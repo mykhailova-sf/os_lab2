@@ -34,7 +34,12 @@ public class Scheduler {
         avgResponseTime /= n;
 
         System.out.println(scheduler + " - Середній час обробки: " + avgTurnaroundTime + ", Середній час відгуку: " + avgResponseTime);
+    }
+    public static void main(String[] args) {
+        int[] tasks = {200, 200, 200};  // Довжини завдань
 
-
+        // Обчислення для FIFO та SJF
+        calculateTimes(tasks, "FIFO");
+        calculateTimes(tasks, "SJF");
     }
 }
