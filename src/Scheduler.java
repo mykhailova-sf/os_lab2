@@ -95,7 +95,7 @@ public class Scheduler {
 
 
     public static void main(String[] args) {
-        int[] tasks = {200, 200, 200};  // Довжини завдань
+        int[] tasks = {100, 200, 300};  // Довжини завдань
 
         // Обчислення для FIFO та SJF
         calculateTimes(tasks, "FIFO");
