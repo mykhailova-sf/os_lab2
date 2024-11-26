@@ -14,7 +14,7 @@ The goal of this lab is to:
 ### [Mykhailova_Sofiia_lab2.pdf](./Mykhailova_Sofiia_lab2.pdf) 📖
 This file contains the theoretical part of the lab, including the problem description, the scheduling algorithms, and the mathematical formulas for calculating response time, turnaround time, and waiting time.
 
-### [Mykhailova_Sofiia_lab2_os_scheduler.py.pdf](./Mykhailova_Sofiia_lab2_os_scheduler.py.pdf) 💻
+### [Mykhailova_Sofiia_lab2_os_scheduler.py.pdf](./src/Mykhailova_Sofiia_lab2_os_scheduler.py.pdf) 💻
 This file contains the programmatic implementation of the scheduling algorithms in Python. The algorithms implemented in the code:
 - FIFO (First In, First Out) 🚶‍♂️
 - SJF (Shortest Job First) ⏱️
