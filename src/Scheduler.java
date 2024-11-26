@@ -22,5 +22,19 @@ public class Scheduler {
             System.out.println("Завдання " + (i + 1) + " - Час відгуку: " + responseTime[i] + ", Час обробки: " + turnaroundTime[i]);
         }
 
+        // Обчислення середнього часу відгуку і часу обробки
+        double avgTurnaroundTime = 0;
+        double avgResponseTime = 0;
+        for (int i = 0; i < n; i++) {
+            avgTurnaroundTime += turnaroundTime[i];
+            avgResponseTime += responseTime[i];
+        }
+
+        avgTurnaroundTime /= n;
+        avgResponseTime /= n;
+
+        System.out.println(scheduler + " - Середній час обробки: " + avgTurnaroundTime + ", Середній час відгуку: " + avgResponseTime);
+
+
     }
 }
